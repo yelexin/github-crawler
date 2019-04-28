@@ -1,0 +1,28 @@
+{
+  "name": "github-crawler",
+  "version": "1.0.0",
+  "description": "github 邮箱爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yelexin/github-crawler.git"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "yelexin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yelexin/github-crawler/issues"
+  },
+  "homepage": "https://github.com/yelexin/github-crawler#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mysql2": "^1.6.5",
+    "rabbit.js": "^0.4.4"
+  }
+}
